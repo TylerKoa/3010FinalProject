@@ -571,7 +571,13 @@
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/PreloadedAssets(DontUse)/Track/M_Track.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/PreloadedAssets(DontUse)/Track/MI_TrackEdge.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/PreloadedAssets(DontUse)/Track/SM_Track_10M.uasset",
-				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/Track/SM_Track_10M.uasset"
+				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/Track/SM_Track_10M.uasset",
+				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/VehicleAdvPawn.uasset",
+				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/VehicleUI.uasset",
+				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsRear.uasset",
+				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsFront.uasset",
+				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.uasset",
+				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/SportsCar/SportsCar_TorqueCurve.uasset"
 			]
 		}
 	]
