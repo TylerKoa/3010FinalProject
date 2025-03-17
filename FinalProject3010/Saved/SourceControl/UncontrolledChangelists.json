@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset",
+				"C:/Users/u1538340/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/Vehicles/SportsCar/SportsCar_CtrlRig.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/PreloadedAssets(DontUse)/LevelPrototyping/Textures/T_GridChecker_A.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/PreloadedAssets(DontUse)/LevelPrototyping/Materials/MF_ProcGrid.uasset",
@@ -327,7 +329,6 @@
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/Interfaces/BPI_Interactable.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/0/EV/PB1NUXCGLP84QECJ9S849E.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/E/W3/TSPG0P5CY353J8LMY5A287.uasset",
-				"C:/Program Files/Epic Games/UE_5.5/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/Vehicles/SkylineCar/SM_Skyline01.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/Vehicles/SkylineCar/M_lights.uasset",
 				"C:/Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/Vehicles/SkylineCar/M_Muffler.uasset",
