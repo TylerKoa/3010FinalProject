@@ -2123,3 +2123,24 @@ FPackageName: Skipped package /Game/LevelPrototyping/Meshes/SM_Cylinder has a va
 [2025.03.17-18.44.19:551][716]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 352.444733
 [2025.03.17-18.44.20:551][719]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.17-18.44.20:551][719]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 353.111298, Update Interval: 359.099091
+[2025.03.17-18.45.35:460][199]LogGarbage: Warning: Class HoudiniInstancedActorComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.45.35:460][199]LogGarbage: Warning: Class HoudiniMeshSplitInstancerComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.45.35:475][199]LogGarbage: Warning: Class HoudiniInstancedActorComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.45.35:475][199]LogGarbage: Warning: Class HoudiniMeshSplitInstancerComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.45.35:484][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.03.17-18.45.36:063][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.17-18.45.36:119][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn] ([2] browsable assets)...
+[2025.03.17-18.45.36:148][234]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.SportsCar_Pawn]
+[2025.03.17-18.45.36:148][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn]
+[2025.03.17-18.45.36:176][234]LogSavePackage: Moving output files for package: /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn
+[2025.03.17-18.45.36:177][234]LogSavePackage: Moving '../../../../../../Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Saved/SportsCar_PawnFEE090AE429536859B391A9612E20986.tmp' to '../../../../../../Users/u1490029/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.uasset'
+[2025.03.17-18.45.36:184][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.406 ms (total: 664.860 ms)
+[2025.03.17-18.45.36:234][234]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.17-18.45.36:234][234]LogContentValidation: Enabled validators:
+[2025.03.17-18.45.36:234][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.17-18.45.36:234][234]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.17-18.45.36:234][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.17-18.45.36:234][234]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.17-18.45.36:234][234]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.17-18.45.36:234][234]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.17-18.45.36:234][234]AssetCheck: /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn Validating asset
