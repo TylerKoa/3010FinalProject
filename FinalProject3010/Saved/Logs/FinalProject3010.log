@@ -2140,3 +2140,65 @@ FPackageName: Skipped package /Game/LevelPrototyping/Meshes/SM_Cylinder has a va
 [2025.03.17-18.54.43:729][874]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 342.364960
 [2025.03.17-18.54.44:731][877]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.17-18.54.44:731][877]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 343.031525, Update Interval: 349.837341
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: ================================================
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Total job queries 12,328, among them cache hits 3,124 (25.34%), DDC hits 7,857 (63.73%), Duplicates 186 (1.51%)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Tracking 9,018 distinct input hashes that result in 8,519 distinct outputs (94.47%)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: RAM used: 5.99 MiB of 1.60 GiB budget. Usage: 0.37%
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Shaders Compiled: 1,161
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Jobs assigned 1,161, completed 1,161 (100%)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Average time worker was idle: 6.31 s
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Time job spent in pending queue: average 55.41 s, longest 135.12 s
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Job execution time: average 13.27 s, max 35.70 s
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Job life time (pending + execution): average 68.68 s, max 137.52
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Shader code size: average 28.774 KiB, min 2.426 KiB, max 154.359 KiB
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 162.78 s
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Jobs were issued in 251 batches (only local compilation was used), average 4.63 jobs/batch
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Average processing rate: 7.13 jobs/sec
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Total thread time: 1,700.68 s
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Total thread preprocess time: 97.388 s
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Percentage time preprocessing: 5.73%
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Effective parallelization: 10.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 4.54 sec, max 9.15 sec, min 1.70 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS (compiled   72 times, average 3.30 sec, max 4.48 sec, min 2.49 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 3.28 sec, max 3.38 sec, min 3.16 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                 FLumenScreenProbeGatherHardwareRayTracingRGS (compiled    8 times, average 3.24 sec, max 3.37 sec, min 3.09 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                     FLumenRadianceCacheHardwareRayTracingRGS (compiled    2 times, average 3.23 sec, max 3.27 sec, min 3.19 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                                             FDeferredLightPS - 45.94% of total time (compiled  454 times, average 1.72 sec, max 2.20 sec, min 1.26 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 13.96% of total time (compiled   72 times, average 3.30 sec, max 4.48 sec, min 2.49 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                                          FClusteredShadingPS - 8.55% of total time (compiled   32 times, average 4.54 sec, max 9.15 sec, min 1.70 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 6.22% of total time (compiled  192 times, average 0.55 sec, max 0.67 sec, min 0.36 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display:                                         FShadeLightSamplesCS - 4.13% of total time (compiled   36 times, average 1.95 sec, max 2.42 sec, min 1.17 sec)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: === Material stats ===
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Materials Translated:    149
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Material Translation Only: 0.03 s (28%)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.03.17-18.55.06:397][942]LogShaderCompilers: Display: ================================================
+[2025.03.17-18.58.03:771][823]LogGarbage: Warning: Class HoudiniInstancedActorComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.58.03:771][823]LogGarbage: Warning: Class HoudiniMeshSplitInstancerComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.58.03:781][823]LogGarbage: Warning: Class HoudiniInstancedActorComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.58.03:781][823]LogGarbage: Warning: Class HoudiniMeshSplitInstancerComponent or a super class did not call Super::AddReferencedObjects
+[2025.03.17-18.58.03:792][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.03.17-18.58.04:409][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.17-18.58.04:462][867]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn] ([2] browsable assets)...
+[2025.03.17-18.58.04:492][867]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.SportsCar_Pawn]
+[2025.03.17-18.58.04:492][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn]
+[2025.03.17-18.58.04:520][867]LogSavePackage: Moving output files for package: /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn
+[2025.03.17-18.58.04:521][867]LogSavePackage: Moving '../../../../../../Users/u1538340/Documents/GitHub/3010FinalProject/FinalProject3010/Saved/SportsCar_Pawn4616FAC24C016F787040C787E7443170.tmp' to '../../../../../../Users/u1538340/Documents/GitHub/3010FinalProject/FinalProject3010/Content/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.uasset'
+[2025.03.17-18.58.04:527][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.170 ms (total: 462.100 ms)
+[2025.03.17-18.58.04:580][867]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.17-18.58.04:580][867]LogContentValidation: Enabled validators:
+[2025.03.17-18.58.04:580][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.17-18.58.04:580][867]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.17-18.58.04:580][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.17-18.58.04:580][867]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.17-18.58.04:580][867]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.17-18.58.04:580][867]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.17-18.58.04:580][867]AssetCheck: /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn Validating asset
